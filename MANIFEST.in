@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include globetech *.css
+recursive-include globetech *.csv
+recursive-include globetech *.html
+recursive-include globetech *.ico
+recursive-include globetech *.js
+recursive-include globetech *.json
+recursive-include globetech *.md
+recursive-include globetech *.png
+recursive-include globetech *.py
+recursive-include globetech *.svg
+recursive-include globetech *.txt
+recursive-exclude globetech *.pyc
